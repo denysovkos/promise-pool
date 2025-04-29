@@ -2,6 +2,8 @@
 
 A generic, typed, event-driven promise pool for concurrent task execution with prioritization, timeouts, and retries — implemented in TypeScript.
 
+[Source code on GitHub](https://github.com/denysovkos/promise-pool)
+
 ## Features
 
 - Limit the number of concurrent asynchronous tasks.
@@ -15,7 +17,7 @@ A generic, typed, event-driven promise pool for concurrent task execution with p
 ## Installation
 
 ```bash
-npm install your-library-name
+npm install promise-pool-async
 ```
 
 ## Usage

@@ -1,10 +1,10 @@
 {
-  "name": "promise-pool",
+  "name": "promise-pool-async",
   "version": "1.0.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": ["dist"],
-  "keywords": ["promise", "pool", "concurrency", "typescript"],
+  "keywords": ["promise", "pool", "concurrency", "typescript", "async"],
   "scripts": {
     "test": "jest",
     "build": "tsc",
