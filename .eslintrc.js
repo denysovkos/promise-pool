@@ -12,6 +12,9 @@ module.exports = {
   },
   plugins: ['@typescript-eslint'],
   root: true,
+  rules: {
+    'no-unused-vars': 'off',
+  },
   overrides: [
     {
       files: ['**/*.ts']
