@@ -58,15 +58,6 @@ new PromisePool<T>({
 #### `add(task, priority = 3, retries?)`
 Add a task to the pool with optional priority and retry count.
 
-#### `pause()`
-Temporarily halt task processing.
-
-#### `resume()`
-Resume processing after pause.
-
-#### `setConcurrency(size)`
-Dynamically adjust the concurrency level.
-
 #### `shutdown()`
 Gracefully stop processing and abort running tasks.
 
